@@ -1,0 +1,7 @@
+# srack
+.stack-work
+*.cabal
+
+# IDEA
+.idea
+*.iml
