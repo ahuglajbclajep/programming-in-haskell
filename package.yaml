@@ -1,6 +1,6 @@
-name:                programming-in-haskell
-version:             0.1.0.0
-license:             BSD3
+name: programming-in-haskell
+version: 0.1.0.0
+license: BSD3
 
 ghc-options: -Wall
 
@@ -11,7 +11,16 @@ library:
   source-dirs: src
 
 executable:
-  main:                Main.hs
-  source-dirs:         app
+  main: Main.hs
+  source-dirs: app
   dependencies:
   - programming-in-haskell
+
+tests:
+  spec:
+    main: Spec.hs
+    source-dirs: test
+    dependencies:
+    - programming-in-haskell
+    - tasty
+    - tasty-hunit
