@@ -17,10 +17,11 @@ executable:
   - programming-in-haskell
 
 tests:
-  spec:
-    main: Spec.hs
+  test:
+    main: Driver.hs
     source-dirs: test
     dependencies:
     - programming-in-haskell
     - tasty
     - tasty-hunit
+    - tasty-discover
