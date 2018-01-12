@@ -1,4 +1,4 @@
-module Section1.Exercise3
+module Chapter01.Exercise3
     ( product'
     ) where
 

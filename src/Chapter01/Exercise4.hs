@@ -1,4 +1,4 @@
-module Section1.Exercise4
+module Chapter01.Exercise4
     ( qsort'
     ) where
 
