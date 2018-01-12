@@ -4,6 +4,7 @@ import Test.Tasty
 import Test.Tasty.HUnit
 import Chapter04.Exercise1
 import Chapter04.Exercise2
+import Chapter04.Exercise6
 
 test_Ch04UnitTests :: [TestTree]
 test_Ch04UnitTests =
@@ -17,4 +18,6 @@ test_Ch04UnitTests =
         , testCase "safeTail''" $
             safeTail'' [1..5] @?= [2..5]
         ]
+    , testCase "Ex6" $
+        mult 1 2 3 @?= 6
     ]
