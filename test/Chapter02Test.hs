@@ -25,4 +25,3 @@ test_Ch02UnitTests =
             init' [1..5] @?= [1..4]
         ]
     ]
-
