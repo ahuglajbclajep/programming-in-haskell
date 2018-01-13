@@ -5,7 +5,7 @@ license: BSD3
 ghc-options: -Wall
 
 dependencies:
-- base == 4.*
+  - base == 4.*
 
 library:
   source-dirs: src
@@ -14,14 +14,16 @@ executable:
   main: Main.hs
   source-dirs: app
   dependencies:
-  - programming-in-haskell
+    - programming-in-haskell
 
 tests:
   test:
     main: Driver.hs
     source-dirs: test
+    ghc-options:
+      - -Wno-type-defaults
     dependencies:
-    - programming-in-haskell
-    - tasty
-    - tasty-hunit
-    - tasty-discover
+      - programming-in-haskell
+      - tasty
+      - tasty-hunit
+      - tasty-discover

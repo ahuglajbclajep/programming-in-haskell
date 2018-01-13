@@ -15,6 +15,6 @@ False ∨∨∨ b = b
 _ ∨∨∨ _ = True
 
 (∨∨∨∨) :: Bool -> Bool -> Bool
-False ∨∨∨∨ b = b
-True ∨∨∨∨ _  = True
-_ ∨∨∨∨ True  = True
+False ∨∨∨∨ False = False
+False ∨∨∨∨ True  = True
+True ∨∨∨∨ _      = True
