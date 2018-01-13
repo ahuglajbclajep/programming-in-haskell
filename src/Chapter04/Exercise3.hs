@@ -1,9 +1,4 @@
-module Chapter04.Exercise3
-    ( (∨)
-    , (∨∨)
-    , (∨∨∨)
-    , (∨∨∨∨)
-    ) where
+module Chapter04.Exercise3 where
 
 (∨) :: Bool -> Bool -> Bool
 True ∨ True   = True

@@ -1,6 +1,4 @@
-module Chapter01.Exercise3
-    ( product'
-    ) where
+module Chapter01.Exercise3 where
 
 product' :: Num a => [a] -> a
 product' []     = 1

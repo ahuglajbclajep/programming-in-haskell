@@ -1,8 +1,4 @@
-module Chapter04.Exercise2
-    ( safeTail
-    , safeTail'
-    , safeTail''
-    ) where
+module Chapter04.Exercise2 where
 
 safeTail :: [a] -> [a]
 safeTail xs = if null xs then [] else drop 1 xs

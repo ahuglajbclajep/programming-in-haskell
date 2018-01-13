@@ -1,8 +1,4 @@
-module Chapter02.Exercise4
-    ( last'
-    , last''
-    , last'''
-    ) where
+module Chapter02.Exercise4 where
 
 last' :: [a] -> a
 last' xs = head (reverse xs)

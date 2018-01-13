@@ -1,6 +1,4 @@
-module Chapter01.Exercise4
-    ( qsort'
-    ) where
+module Chapter01.Exercise4 where
 
 qsort' :: Ord a => [a] -> [a]
 qsort' []     = []

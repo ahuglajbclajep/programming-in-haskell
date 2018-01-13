@@ -1,7 +1,4 @@
-module Chapter02.Exercise5
-    ( init'
-    , init''
-    ) where
+module Chapter02.Exercise5 where
 
 init' :: [a] -> [a]
 init' xs = take (length xs - 1) xs
